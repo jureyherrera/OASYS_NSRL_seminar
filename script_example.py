@@ -413,7 +413,7 @@ def run_shadow(roll_angle):
 
 def write_output(roll_angles):
 
-	""" This function writes an CSV file with the horizontal and vertical FWHM
+	""" This function writes a CSV file with the horizontal and vertical FWHM
 	for each rotation angle """
 
 	df = pd.DataFrame(roll_angles, columns=['Rotation angle (deg)'])
